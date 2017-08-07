@@ -1,0 +1,6 @@
+framework module Pods_iOSSwiftBoilerplate {
+  umbrella header "Pods-iOSSwiftBoilerplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,46 @@
+# Find all available rule identifiers by running:
+# $ swiftlint rules
+
+# rule identifiers to exclude from running
+disabled_rules:
+  - force_cast
+  - line_length
+  - leading_whitespace
+  - trailing_whitespace
+  - cyclomatic_complexity
+  - function_parameter_count
+
+# some rule identifiers are only opt-in
+opt_in_rules:
+
+# paths to include during linting
+included:
+
+# paths to ignore during linting
+# takes precedence over `included`
+excluded:
+  - Pods
+  - R.generated.swift
+
+# rule identifiers configurations
+
+function_body_length:
+  warning: 300
+  error: 400
+
+type_body_length:
+  warning: 1000
+  error: 1500
+
+file_length:
+  warning: 1000
+  error: 1500
+
+type_name:
+  max_length:
+    warning: 50
+
+variable_name:
+  min_length:
+    warning: 1
+    error: 1

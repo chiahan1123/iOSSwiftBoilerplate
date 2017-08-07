@@ -1,0 +1,31 @@
+PODS:
+  - KVNProgress (2.3.1)
+  - R.swift (3.3.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - RxSwift (3.6.1)
+  - RxTest (3.6.1):
+    - RxSwift (~> 3.6)
+  - Timepiece (1.2.0)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - KVNProgress (= 2.3.1)
+  - R.swift (= 3.3.0)
+  - RxSwift (= 3.6.1)
+  - RxTest (= 3.6.1)
+  - Timepiece (= 1.2.0)
+  - UIColor_Hex_Swift (= 3.0.2)
+
+SPEC CHECKSUMS:
+  KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+  R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxTest: 1d00348a7848c91ab5bf5d197d2378aa6b2bb356
+  Timepiece: d07900e985af4911f09146f1175fdbec37944836
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: 641dd79096243d9e8f2d32ef0908d885d68d9f0f
+
+COCOAPODS: 1.2.1
