@@ -4,8 +4,18 @@ Lightweight Boilerplate for iOS project in Swift.
 
 ## Getting Started
 
-1. Clone/Download the project.
-2. Rename any occurences of **iOSSwiftBoilerplate** to [your_project_name] and then you are good to go.
+1. Download the project as a ZIP.
+2. Rename **iOSSwiftBoilerplate** to **[your_project_name]**.
+    1. Rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** in ```iOSSwiftBoilerplate.xcodeproj/project.pbxproj``` and ```iOSSwiftBoilerplate.xcworkspace/contents.xcworkspacedata```.
+    2. Rename all directories and files name:
+        * ```iOSSwiftBoilerplate/``` -> ```[your_project_name]/```
+        * ```iOSSwiftBoilerplate.xcodeproj/``` -> ```[your_project_name].xcodeproj/```
+        * ```iOSSwiftBoilerplate.xcworkspace/``` -> ```[your_project_name].xcworkspace/```
+        * ```iOSSwiftBoilerplateTests/``` -> ```[your_project_name]Tests/``` 
+    3. Rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** in the entire workspace by opening the ```[your_project_name].xcworkspace``` file with Xcode and use the "Find" -> "Find and Replace in Workspace...".
+3. Lastly, build the project and you are good to go.
+
+(**Note**: If your project's scheme name is not changed, close Xcode and remove the ```[your_project_name].xcodeproj/xcuserdata/``` and ```[your_project_name].xcworkspace/xcuserdata/``` directories and reopen the ```[your_project_name].xcworkspace``` in Xcode.)
 
 ## Features Out-of-the-Box
 
