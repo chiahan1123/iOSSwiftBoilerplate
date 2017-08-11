@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode8.3
+script:
+- xcodebuild -workspace iOSSwiftBoilerplate.xcworkspace -scheme TravisCI -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3.1' build test

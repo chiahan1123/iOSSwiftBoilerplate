@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chiahan1123/iOSSwiftBoilerplate.svg?branch=master)](https://travis-ci.org/chiahan1123/iOSSwiftBoilerplate)
+
 # iOSSwiftBoilerplate
 
 Lightweight Boilerplate for iOS project in Swift.
@@ -5,16 +7,25 @@ Lightweight Boilerplate for iOS project in Swift.
 ## Getting Started
 
 1. Download the project as a ZIP.
-2. Rename **iOSSwiftBoilerplate** to **[your_project_name]**.
-    1. Rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** in ```iOSSwiftBoilerplate.xcodeproj/project.pbxproj``` and ```iOSSwiftBoilerplate.xcworkspace/contents.xcworkspacedata```.
+2. This project is setup with Travis CI, you can choose to remove it or keep it.
+    * To remove it, remove the following files/directory:
+        * ```.travis.yml```
+        * ```iOSSwiftBoilerplate.xcodeproj/xcshareddata/```
+    * To keep it, make sure you rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** in the following files:
+        * ```travis.yml```
+        * ```iOSSwiftBoilerplate.xcodeproj/xcshareddata/xcschemes/TravisCI.xcscheme```
+3. Rename **iOSSwiftBoilerplate** to **[your_project_name]**.
+    1. Before opening the workspace, rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** in the following files:
+        * ```iOSSwiftBoilerplate.xcodeproj/project.pbxproj```
+        * ```iOSSwiftBoilerplate.xcworkspace/contents.xcworkspacedata```
     2. Rename all directories and files name:
         * ```iOSSwiftBoilerplate/``` -> ```[your_project_name]/```
         * ```iOSSwiftBoilerplate.xcodeproj/``` -> ```[your_project_name].xcodeproj/```
         * ```iOSSwiftBoilerplate.xcworkspace/``` -> ```[your_project_name].xcworkspace/```
         * ```iOSSwiftBoilerplateTests/``` -> ```[your_project_name]Tests/``` 
-    3. Rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** in the entire workspace by opening the ```[your_project_name].xcworkspace``` file with Xcode and use the "Find" -> "Find and Replace in Workspace...".
-3. Remove the ```Pods/``` directory and do a ```pod install``` to reflect the new project name.
-4. Lastly, build/run the project and you are good to go.
+    3. Open the ```[your_project_name].xcworkspace``` file with Xcode, rename all occurences of **iOSSwiftBoilerplate** to **[your_project_name]** by using the "Find" -> "Find and Replace in Workspace...".
+4. Remove the ```Pods/``` directory and do a ```pod install``` to reflect the new project name.
+5. Lastly, build/run the project and you have a clean workspace to start your project!
 
 **Note**: If your project's scheme name is not changed, close Xcode and remove the ```[your_project_name].xcodeproj/xcuserdata/``` and ```[your_project_name].xcworkspace/xcuserdata/``` directories and reopen the ```[your_project_name].xcworkspace``` in Xcode.
 
