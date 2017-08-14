@@ -23,6 +23,8 @@ abstract_target 'tests' do
   
   platform :ios, '9.0'
   target 'iOSSwiftBoilerplateTests' do
+    pod 'Quick', '1.1.0'
+    pod 'Nimble', '7.0.1'
     pod 'RxTest', '3.6.1'
   end
 end

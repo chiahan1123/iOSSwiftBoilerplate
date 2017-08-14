@@ -1,18 +1,16 @@
 
-import XCTest
+import Quick
+import Nimble
 @testable import iOSSwiftBoilerplate
 
-class ExampleTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
+class ExampleTests: QuickSpec {
+
+  override func spec() {
+    describe("this test") {
+      it("should be removed and replaced by your own") {
+        expect(true).to(beTrue())
+      }
     }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
-    func testExample() {
-    }
-    
+  }
+
 }
