@@ -1,5 +1,7 @@
 PODS:
   - KVNProgress (2.3.1)
+  - Nimble (7.0.1)
+  - Quick (1.1.0)
   - R.swift (3.3.0):
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
@@ -11,6 +13,8 @@ PODS:
 
 DEPENDENCIES:
   - KVNProgress (= 2.3.1)
+  - Nimble (= 7.0.1)
+  - Quick (= 1.1.0)
   - R.swift (= 3.3.0)
   - RxSwift (= 3.6.1)
   - RxTest (= 3.6.1)
@@ -19,6 +23,8 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
   R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
@@ -26,6 +32,6 @@ SPEC CHECKSUMS:
   Timepiece: d07900e985af4911f09146f1175fdbec37944836
   UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
 
-PODFILE CHECKSUM: 641dd79096243d9e8f2d32ef0908d885d68d9f0f
+PODFILE CHECKSUM: 62d9d0e9254c1a55cd00a39f2909143f40038ac9
 
 COCOAPODS: 1.2.1

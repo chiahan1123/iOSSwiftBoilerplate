@@ -34,6 +34,7 @@ Lightweight Boilerplate for iOS project in Swift.
 * [CocoaPods](https://github.com/CocoaPods/CocoaPods) is integrated to manage dependencies for your project. 
 * [SwiftLint](https://github.com/realm/SwiftLint) is setup in the "Run Script". Make sure to follow the "Installation" -> "Using Homebrew" method.
   * You can customize the rules in ```.swiftlint.yml``` file. To view all the available rules ```swiftlint rules```.
+* [Quick](https://github.com/Quick/Quick) and [Nimble](https://github.com/Quick/Nimble) is included for more descriptive unit testing.
 * [BuildTimeAnalyzer-for-Xcode](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode) is configured in the *Debug* build configuration. You can install this tool to profile the build time of your project. (**Note**: Make sure you create a scheme with *Release* build configuration when releasing.)
 
 <img align="right" src="https://user-images.githubusercontent.com/11417800/29055662-4071c200-7c30-11e7-9729-ffe356301293.png">
@@ -53,7 +54,7 @@ The following is a list of existing third-party libraries.
 
 * [KVNProgress](https://github.com/AssistoLab/KVNProgress)
 * [R.swift](https://github.com/mac-cain13/R.swift)
-* [RxSwift/RxTest](https://github.com/ReactiveX/RxSwift)
+* [RxSwift](https://github.com/ReactiveX/RxSwift)
 * [Timepiece](https://github.com/naoty/Timepiece)
 * [UIColor_Hex_Swift](https://github.com/yeahdongcn/UIColor-Hex-Swift)
 
